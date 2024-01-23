@@ -38,7 +38,7 @@
 ## Colab
 | Colab                                                                                                                                                                          | Info               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuvhCyRR9tnYGmaxyvjyutYbp0qrTmVz#scrollTo=yI2WJ_A88D1-) | Laba3 |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuvhCyRR9tnYGmaxyvjyutYbp0qrTmVz?usp=sharing) | Laba3 |
 
 ## Результат.
 1. **Облака слов.**
