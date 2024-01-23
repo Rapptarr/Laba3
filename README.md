@@ -42,16 +42,32 @@
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuvhCyRR9tnYGmaxyvjyutYbp0qrTmVz#scrollTo=yI2WJ_A88D1-) | Laba3 |
 
 ## Результат.
-1. **Веса.**
+1. **Облака слов.**
+   * Облако спам-слов.
    
-   ![xxxx](https://sun9-15.userapi.com/impg/GuDkdtCgj_0vGzFffmMLGyj7ywvyh09oE3TO4g/8sJvUvt68mQ.jpg?size=282x764&quality=96&sign=8a56d8e35fc07f52556ab10cc0bcabbd&type=album)
-  * После завершения обучения модели мы получаем количество весов, равное количеству эпох.
-  * Ранние веса не имеют смысла, поэтому прикрепляю только лучшие (с 24 и 25 эпох)
+   ![xxxx](https://sun9-48.userapi.com/impg/gmnUb1U_E2KsuL8Gbh0Wdx1bVV-9GN4sIEYiHg/GzFJ6_yQkNA.jpg?size=820x821&quality=96&sign=1b15fbfc0e5250fc0ac3687d800e30b6&type=album)
+  * Мы видим обилие таких клишированных для спам-сообщений слов, как: "ответьте", "бесплатно", "сейчас", "заберите", "перезвоните" и так далее.
 
-2. **Результат 24 веса.**
+
+  * Облако обычных (не спам) слов.
+
+   ![xxxx](https://sun9-64.userapi.com/impg/2oGLik6Sy2Sjw-6ApVpvCD7vD9B0naNIJc5OmA/ktrlCJgrDFo.jpg?size=822x821&quality=96&sign=03ba2d97f429333ed03d681648683a34&type=album)
+   * Здесь ничего примечательного, обыкновенные разговорные слова.
+
+2. **Примеры блокировки спама**
     
-   ![xxxx](https://sun9-6.userapi.com/impg/Gjs8rGkTwnbtmG8YlVi9Yx5Ph-wUTtD_qvjqzg/24pTIn4yX9k.jpg?size=838x559&quality=96&sign=72b558846ce7c5cd95b6c47ac4edfebe&type=album)
+   ![xxxx](https://sun9-56.userapi.com/impg/Jiho5Mr87HvN5K3GhfZ4hemuXm7XcMoHBUbf4Q/7ZXANtEfO3E.jpg?size=646x92&quality=96&sign=1a581f2fb626606d133f8c4d1c0f6097&type=album)
+   * "Я не могу взять трубку прямо сейчас. Пожалуйста, отправьте сообщение."
+   * Скорее всего, реплика автоответчика, ничего подозрительного.
+     
+   ![xxxx](https://sun21-1.userapi.com/impg/zdW0h-_lqxma9Kj15NfTUdQ9_WMd7XrmFI8nmg/pTzkBjZjoxM.jpg?size=524x90&quality=96&sign=c454b145b3874c1c6fa7ac8394dca049&type=album)
+   * "Поздравляем вас с присуждением 500 долларов."
+   * Деньги не падают с неба, однозначно спам.
    
-3. **Несколько результатов 25 веса.**
-   ![xxxx](https://sun9-65.userapi.com/impg/MIxhKk5DiRq5PVG2b5FaI3tFjAkXd72xWNbiUQ/_iFQDmSeyTc.jpg?size=1120x537&quality=96&sign=e43290fab8b08c59666c87dfe648d8c8&type=album)
-   ![xxxx](https://sun9-34.userapi.com/impg/65BA1Cyy5kvHYnaVH68ZAKeCU3IU984HS4byOw/Xa6jlLxsAGs.jpg?size=1236x531&quality=96&sign=95e32d5e42b8349e8cc498e671663347&type=album)
+   ![xxxx](https://sun9-41.userapi.com/impg/OWooivX8N8GJiJ2w_N6SRrUF18iS4OJLAt1VQQ/GnrkYRD9wME.jpg?size=517x87&quality=96&sign=1d4f69c403a0d521aa1a0639060b2c3d&type=album)
+   * "Ты победитель!! Получи бесплатный подарок прямо сейчас!"
+   * Бесплатный сыр только в мышеловке - отправляется в спам.
+     
+   ![xxxx](https://sun9-75.userapi.com/impg/yjxnlPwdDo4MPHd37gfnOr4as0Fvt5Bn-IjHWw/ICPOV1MunhI.jpg?size=953x93&quality=96&sign=91fdad30349e6e861a684ab46ed68d14&type=album)
+   * "Мы рассмотрели ваше заявление. Приходите на собеседование послезавтра в обед."
+   * Ответ директора фирмы после просмотра резюме, здесь всё хорошо.
